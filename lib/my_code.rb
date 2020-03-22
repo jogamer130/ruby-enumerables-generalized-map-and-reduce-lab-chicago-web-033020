@@ -1,10 +1,6 @@
 def map_to_negativize(source_array)
   new = []
   i = 0
-  while i < source_array.length do
-    new.push(source_array[i] *-1)
-    i += 1
-  end
   return new
 end
 
@@ -21,9 +17,7 @@ end
 def map_to_double(source_array)
   new = []
   i = 0
-  while i < source_array.length do
-    new.push(source_array[i] * 2)
-    i += 1
+  whi
   end
   return new
 end
@@ -51,18 +45,8 @@ end
 
 def reduce_to_all_true(source_array)
   i = 0
-  while i < source_array.length do
-    return false if !source_array[i]
-    i+=1
-  end
-  return true
-end
 
-def reduce_to_any_true(source_array)
-  i = 0
-  while i < source_array.length do
-    return true if source_array[i]
-    i += 1
+def reduc
   end
   return false
 end 
